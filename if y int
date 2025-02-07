@@ -1,0 +1,65 @@
+using System;
+namespace upc
+{
+    class programa
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("escribe un valor ");
+            int valor = int.Parse(Console.ReadLine());
+            double mult = valor * 0.20;
+            double mult2 = valor * 0.05;
+            if (valor > 100)
+            {
+                Console.WriteLine("tiene un descuento del 20% del total es " + mult);
+            }
+            else
+                Console.WriteLine("tiene un descuento del 20% del total es " + mult2);
+
+
+        } 
+        }
+
+
+        static void guardado ()
+        { 
+            //Console.WriteLine("escriba su nombre"); //mostrar informacion
+            //string entrada= Console.ReadLine();//readline siempre devuelve un string
+            //Console.WriteLine("hola " + entrada);
+
+            //int numero = 6; //numeros enteros
+            //float decimales = 3.2f;
+            //double decimal2 = 3.2; // numero decimal
+            //string palabras = "hola a todos"; // palabras (cadenas)
+            //char letras = 'a'; // caracteres
+            //bool booleano = false; // (true /false) (1,0)
+
+
+            //int n1 = 6;
+            //int n2 = 3;
+            //string pal = "hola ";
+            //string pal2 = "adios ";
+            //char l1 = 'a';
+            //double dec1 = 5.0;
+
+
+            //int suma = n1 + n2; // suma
+            //int resta = n1 - n2; // resta
+            //int multt = n1 * n2; // multiplicacion
+            //int div = n1 / n2; // division
+            //int resto = n1 * n2; // el resto de la division
+
+            //string res = pal + pal2; // concatenar
+            //string res2 = palabras + l1; // string + char     
+            ////char res3 = pal + l1; // no se puede convertir string en char
+            //string res3 = palabras + n1; // no se puede concatenar string con int
+            //int res4 = n1 + l1; // se puede sumar char con int
+
+            //int res5 = 11 / 2; //truncar resultado
+            //double res6 = 11.0 / 2f; // obtener resultado decimal
+            //double res7 = n1 / dec1; // operrar double con int
+
+            //Console.WriteLine("resultado: " + div);
+        }
+    }
+}
